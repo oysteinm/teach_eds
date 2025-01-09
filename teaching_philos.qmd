@@ -1,0 +1,323 @@
+---
+title: "My Teaching Philosophy"
+subtitle: "Evolving Education in Econometrics and Data Science"
+author: "Øystein Myrland"
+output: pdf
+toc: true
+toc_depth: 3
+editor: visual
+bibliography: references_mer.bib
+number-sections: true
+number-depth: 1
+date: today
+date-format: "DD/MM/YYYY"
+---
+
+## About Myself and My Educational Journey
+
+My name is Øystein Myrland, from Andenes in Nordland. I am a professor (since 2007) of Economics at The School of Business and Economics. My long-term relationship with UiT The Arctic University of Norway dates back to my enrollment as a student back in 1986. During my studies, I was introduced to teaching during study groups, where I often ended up lecturing my fellow students during sessions—a role I found both stimulating and very engaging. This early experience sparked my passion for teaching, a commitment that has only deepened over the years. As you will notice, most of this document is written in English. The reason for this is that the majority of my current and historical classes, mainly at the master’s and PhD level, have been taught in English, largely because they are part of the Erasmus program—a European Union initiative to support education, training, and international exchange. Additionally, all my research is conducted and published in English. Only recently have I begun teaching in Norwegian at the bachelor’s level, marking an interesting shift in my teaching journey, transitioning from teaching advanced topics to guiding students through foundational concepts.
+
+I began my formal teaching career during my PhD project in 1996, with a strong emphasis on quantitative courses. Early in my career, I taught econometrics and market analysis courses using proprietary software like Shazam [@byron1987], SPSS [@hilbe2003;@hilbe2004;@hilbe2005], and Stata [@gutierrez2010] for the traditionally required empirical "data labs" [@kaplan2018]. Recognizing the growing potential of open-source tools, I started using R in 2007 [@r2024] and fully integrated it into my quantitative courses by 2015. This transition was driven by my belief in equipping students with accessible, practical tools that bridge theory and application (see @sec-bed2056).
+
+Throughout my teaching journey, I noticed a recurring challenge: students often focused solely on exam-related content, neglecting the practical application of statistical software and coding skills. This gap became evident when supervising master’s students who excelled in theoretical exams but lacked hands-on experience during the practical work on their master thesis (see @sec-wiseflow). The introduction of the WISEflow digital assessment platform in 2017 provided an opportunity to address this. By incorporating practical coding tasks into exams, I ensured that students developed not only theoretical knowledge but also the applied skills essential for real-world problem-solving.
+
+This evolution in my teaching approach reflects my dedication to fostering a learning environment that combines rigorous academic theory with practical applications. My journey has been one of continual adaptation, driven by a commitment to student growth and the evolving demands of the disciplines I teach.
+
+Over the years, I have supervised more than 50 master's students and 10 PhD students, all of whom have successfully completed their degrees. Currently, I am supervising two PhD candidates, continuing my commitment to mentoring the next generation of researchers and professionals. My formal educational training includes the "Universitetspedagogisk seminar" (UPS) at UiT in 2002 and "Forskningsveiledning" at UiT Result in 2021, both of which have significantly influenced my teaching and supervisory approach.
+
+This document outlines my academic teaching journey, which began with a traditional "talk and chalk" approach to teaching quantitative subjects, focusing on mathematics and formal procedures—the same way I was taught. However, over time, my teaching philosophy has evolved significantly. I now prioritize "statistical thinking" and the practical application of quantitative analysis. This transformation was particularly inspired by the rise of big data and data science in the early 2010s, which underscored the importance of coding skills in modern education (see @sec-newprog).
+
+In the appendices, called "Sections" of this document, I provide examples of how my courses, teaching tools, and assessment methods have developed to reflect this philosophy. One of the milestones of this journey was the collective effort with my colleagues in the economics program to rebuild a classical economics education to create the Bachelor in Economics with Data Science—a program that integrates theoretical and practical tools for analyzing modern economic challenges (see @sec-newprog). This innovative program, launched in 2021, won the faculty of Fisheries, Biology and Economics (BFE) "Utdanningsprisen" (Teaching Award) in 2022. The program emphasizes hands-on learning, equipping students with essential coding skills in R and Python [@python3] and providing them with a platform to apply economic theories to real-world data through diverse projects. It also reflects my ongoing commitment to advancing education, now contributing to the new Master program in Economics with Data Science, ensuring students gain both theoretical knowledge and practical expertise.
+
+## Appendicies/Sections
+
+In addition to the main body of this document, which describes my core principles of teaching, I have included the following sections/appendices to highlight my teaching approach and educational development.
+
+@sec-bed2056: Teaching Philosophy in Action - "BED-2056 Introduction to Data Science"   
+@sec-newprog: Economics with Data Science - A New Educational Approach  
+@sec-casebnp: Introduction to Reproducible Research with "Bruttonasjonalprodukt - BNP"  
+@sec-jupyter: Online Coding Platform - "Jupyter at UiT"  
+@sec-wiseflow: Online WISEflow Exam  
+@sec-grade: Automated Grade Explanation for All  
+@sec-partner: Partnering with Students for Continuous Improvement  
+@sec-lettrec: Letter of recommendation from department head  
+
+## Core Principles of Teaching
+
+As a university professor specializing in quantitative analysis like econometrics, statistics, data science, and finance, my teaching philosophy is guided by a commitment to cultivating statistical thinking[^1] and fostering an analytical mindset in students [@racine2002]. I believe in creating an educational environment where students are not just passive recipients of knowledge but active participants in their learning journey [@smith1998learning]. This involves teaching as an investigative process of problem-solving and decision-making (see @sec-casebnp).
+
+[^1]: Introduced by @snee1999discussion.
+
+Statistics, as both a methodology and a field of study, is deeply embedded in historical, philosophical, and political contexts. Traditionally linked to the administration and governance of the state, statistics initially encompassed broad descriptive narratives about the state’s condition. Over time, this evolved into the structured collection of numerical data to meet the growing demands of modern governance, societal debate, and academic inquiry. Recognizing this cultural and historical foundation enriches the learning process, allowing students to appreciate how statistical methods evolved to meet the needs of science, governance, and society. This historical perspective also emphasizes the dual nature of statistics: as a descriptive tool for summarizing reality and as a mathematical discipline for making inferences from data. These advances have been pivotal not only in academia but also in practical fields like economics, sociology, and even fisheries management (see @sec-casebnp).
+
+Moreover, teaching statistics critically includes addressing its philosophical underpinnings. Statistics bridges the certainty of mathematics with the uncertainty of empirical observations. It equips students to navigate complex phenomena by identifying patterns and relationships while acknowledging inherent limitations. Highlighting these aspects encourages students to view statistics as a reflective, rather than purely technical, discipline.
+
+Through cooperative and interactive learning approaches, I aim to empower students with the skills to interpret and critically evaluate statistical information. This involves fostering mathematical literacy and numeracy, ensuring that students can engage with statistical representations in the media and everyday life. By embedding these practices in teaching, I seek to cultivate informed students who can actively participate in data-driven decision-making processes (see @sec-newprog and @sec-partner).
+
+### Constructive Alignment in Teaching
+
+Constructive alignment, as described by @biggs1996, is a teaching framework that integrates constructivist learning theory with instructional design [@cohen1987]. It emphasizes the centrality of the learner's activities in creating meaning, advocating that teaching, learning activities, and assessment methods must align to achieve intended learning outcomes. This approach requires defining course objectives that represent high cognitive levels and designing activities and assessments that elicit and measure these outcomes effectively.
+
+At its core, constructive alignment shifts the focus from traditional teaching methods, where the teacher transmits knowledge, to a learner-centered model. It encourages students to actively engage with content, construct their understanding, and apply their learning in novel contexts. The alignment between objectives, activities, and assessments ensures that students not only acquire knowledge but also develop critical thinking and problem-solving skills.
+
+For instance, assessments are designed not just to test memory or procedural skills but to evaluate "performances of understanding," such as applying theories to real-world problems or reflecting on learning processes. This holistic alignment fosters deeper learning and prepares students for professional challenges (see @sec-wiseflow).
+
+In my teaching, the principles of constructive alignment resonate deeply. My integration of coding tasks into assessments (see @sec-wiseflow) and my emphasis on hands-on data analysis (see @sec-casebnp) align with this framework, ensuring that students achieve both theoretical understanding and practical competence [@biggs2011].
+
+### Fostering Conceptual Understanding
+
+My teaching approach prioritizes conceptual understanding over rote memorization. I focus on enabling students to understand the underlying principles of econometric and statistical methods, ensuring they grasp the "why" behind the techniques they use. This approach moves beyond procedural learning to a deeper comprehension of concepts (see @sec-bed2056).
+
+Conceptual understanding in statistics involves equipping students with the ability to make decisions about data visualization, exploration, and analysis. As emphasized in statistical education literature, students must develop a strong grasp of core concepts like variability, bias, randomness, distribution, and inference. These foundational ideas provide a framework for using tools and procedures effectively. For example, understanding variability allows students to appreciate the inherent differences in data, while knowledge of randomness helps them recognize its role in drawing valid conclusions.
+
+To foster this understanding, I emphasize an investigative approach to learning. Students are encouraged to think critically about how data is collected, explore the questions it seeks to answer, and examine its implications. For instance, I guide them to consider why certain methods are chosen, how data limitations might affect results, and what alternative interpretations may exist. By focusing on these higher-order questions, students learn to connect statistical methods with real-world applications (see @sec-wiseflow).
+
+In line with @dysthe2001 emphasis on dialogic learning, my teaching philosophy recognizes the centrality of dialogue and interaction in fostering deep learning. Dysthe’s framework highlights how learning is co-constructed through meaningful exchanges among students, teachers, and the wider learning environment. By creating opportunities for collaborative problem-solving and peer discussions, I aim to transform the classroom into a dialogic space where diverse perspectives contribute to understanding [@brooman2015].
+
+This approach aligns with my use of collaborative assignments (see @sec-partner), hands-on coding projects (see @sec-casebnp), and my emphasis on student engagement through mid-term feedback (see @sec-partner). Encouraging students to reflect on their learning processes, share their insights, and challenge each other's ideas not only deepens their understanding but also equips them with critical thinking and communication skills essential for professional success.
+
+Another key element is the use of engaging examples and case studies that highlight the role of econometrics as an exploratory and decision-making tool. These examples illustrate that econometrics is not merely a set of disconnected formulas but a coherent process aimed at uncovering insights from data. For instance, analyzing real-world datasets can help students see how statistical models are built and validated, and how they inform decisions in various domains (see @sec-newprog).
+
+### Integrating Real Data and Context
+
+One of my primary goals is to bridge theoretical knowledge with practical application. By integrating real-world data into coursework, students learn to appreciate the relevance of statistical tools in solving complex problems. This approach not only enhances engagement but also prepares students to tackle real-world challenges effectively (see @sec-newprog and @sec-casebnp).
+
+In my teaching, I often incorporate authentic datasets from official sources such as Statistics Norway (Statistisk Sentralbyrå, SSB). For example, I have used data on Gross Domestic Product (GDP) per capita from SSB to illustrate growth trends and economic concepts. Students are introduced to tools like APIs (Application Programming Interfaces) to extract data directly from online repositories. This hands-on approach enables students to work with real data and enhances their technical skills in data extraction, cleaning, and visualization (see @sec-casebnp).
+
+To further contextualize the data, I encourage students to examine the underlying economic theories and mathematical foundations. For instance, while analyzing GDP data, students explore concepts such as relative and percentage changes, and they learn to compute and interpret these metrics using logarithmic transformations. These activities reinforce the importance of critical thinking and the ability to connect quantitative analysis with theoretical frameworks.
+
+Visual representation of data plays a significant role in making the material accessible and engaging. Students create and refine graphical presentations of their findings, such as time-series plots of GDP growth rates. This practice not only improves their technical proficiency in tools like R and Python but also helps them communicate complex ideas effectively (see @sec-newprog).
+
+A very critical principle I emphasize is the use of reproducible code in data analysis [@ram2013]. By employing tools that allow for the automatic updating of data, charts, and analysis each time the code is rerun, students learn to create dynamic and adaptable workflows. This approach mirrors real-world practices and highlights the limitations of static "point-and-click" software or Excel-based analyses. Reproducible workflows not only ensure consistency and transparency but also enable students to adapt their analyses as new data becomes available, fostering a deeper understanding of the dynamic nature of economic and societal systems (see @sec-casebnp).
+
+### Emphasizing Multivariable Thinking
+
+Economics, as a discipline, is deeply interconnected with societal structures and behaviors [@puhringer2019]. When teaching multivariable thinking, I emphasize the importance of examining the big picture to understand how different components of society interact with the economy. This approach involves exploring how variables such as income levels, government policies, market structures, and global trends jointly influence economic outcomes and price formations.
+
+For instance, students analyze datasets that involve multiple economic indicators, such as GDP, inflation rates, and unemployment levels, to uncover interdependencies. Through this process, they learn to construct and interpret models that reflect real-world economic complexities. By incorporating data visualization tools, students create multidimensional graphs that display relationships between variables, fostering a deeper understanding of how societal factors contribute to economic trends (see @sec-bed2056).
+
+To further enhance multivariable thinking, I encourage students to engage in scenario analyses. For example, they may investigate how changes in taxation policies impact both consumer behavior and market prices. Such exercises help students recognize the dynamic nature of economic systems and the need for holistic perspectives when addressing policy questions or business challenges (see @sec-newprog).
+
+The ultimate goal is to cultivate a mindset where students appreciate the interconnectedness of societal and economic phenomena. This approach not only sharpens their analytical skills but also prepares them to contribute meaningfully to discussions on economic policy and societal development.
+
+### Active Learning and Collaboration
+
+Active learning lies at the heart of my teaching philosophy, sparked by my own research with a colleague [@bertheussen2016]. The only way for students to truly master the practical and applied aspects of econometrics, statistics, and data science is through consistent practice. I have integrated assignments as a cornerstone of all my classes, allowing students to engage directly with the material and apply their knowledge in meaningful ways.
+
+Initially, my teaching approach was rooted in traditional "talk and chalk" methods. However, I observed that while these methods helped students understand theoretical concepts, many struggled to translate their understanding into practical skills. To address this gap, I adopted a more interactive approach, incorporating hands-on activities and collaborative assignments [@becker1998]. These activities challenge students to think critically, solve problems, and collaborate effectively with their peers (see @sec-casebnp).
+
+Each assignment is designed to mirror real-world scenarios, requiring students to apply theoretical concepts to data-driven problems. For example, students may analyze datasets to identify trends, create predictive models, or evaluate policy impacts. This approach not only solidifies their understanding of the material but also prepares them for the complexities of professional environments (see @sec-newprog).
+
+The importance of active learning is echoed in educational research, which highlights the benefits of experiential learning and student-centered approaches [@alderman2012;@mandouit2018]. Fostering statistical literacy and thinking requires students to engage with real data in relevant contexts. By designing assignments that simulate scientific laboratories rather than traditional classrooms, I provide students with the tools to navigate the dynamic landscape of modern data analysis.
+
+Collaboration is another critical component of my teaching. Group assignments encourage students to share diverse perspectives, hone their communication skills, and learn from one another. These experiences mirror professional settings, where teamwork is essential for success. By working together, students not only deepen their understanding but also build essential interpersonal skills that will serve them throughout their careers (see @sec-newprog).
+
+### Leveraging Technology
+
+Technology has been a cornerstone of my teaching philosophy since 2007, particularly through my advocacy for open-source software. By using tools such as R and Python, students gain access to powerful, cost-free platforms that eliminate the barriers of expensive licenses (see @sec-jupyter). Open-source tools ensure students can continue using these technologies beyond their academic journey, allowing them to apply their skills in professional environments without the constraints of proprietary software. This approach democratizes access to advanced analytical capabilities, fostering a more inclusive learning environment.
+
+In 2017, I began using WISEflow, a SaaS[^2] solution for exams (see @sec-wiseflow). This platform revolutionized how I assess students by enabling practical and applied testing in econometrics [@chance2002]. Before adopting WISEflow, exams primarily focused on theoretical understanding, which often led students to downplay the practical components of the course. With WISEflow, I can test students' ability to implement statistical methods, analyze data, and interpret results, ensuring a more comprehensive evaluation of their skills.
+
+[^2]: SaaS: [Software as a Service](https://en.wikipedia.org/wiki/Software_as_a_service).
+
+Since the introduction of Large Language Models (LLMs) in November 2022, I have integrated chatbots and tools such as [GitHub Copilot](https://github.com/features/copilot) into my teaching practices to assist students with coding. Historically, coding has been a challenging skill for students to develop, especially alongside the demands of mastering theoretical and mathematical concepts. The integration of LLM-powered tools into coding environments, such as integrated development environments (IDEs), has significantly reduced barriers to learning these skills. Students can now receive real-time assistance in writing, debugging, and refining their code, which accelerates their ability to adopt coding skills effectively.
+
+However, the main learning challenge has shifted towards teaching students how to critically evaluate and validate the suggestions provided by these tools. I emphasize the importance of reviewing and verifying the chatbot's outputs to ensure accuracy and alignment with the problem at hand. By fostering critical thinking and coding literacy, I prepare students to use these tools responsibly and effectively in professional contexts.
+
+The integration of LLMs, alongside other technological tools, enhances the learning process and equips students with the skills needed for the rapidly evolving digital landscape. This commitment to leveraging technology reflects my dedication to preparing students for the challenges and opportunities of the future.
+
+### Ethical Considerations
+
+In an era of data-driven decision-making, the ethical implications of data usage and analysis cannot be overstated. As a teacher, I emphasize the critical importance of ethical considerations in all aspects of statistical practice. This includes recognizing biases in data collection, ensuring transparency in analysis, and adhering to principles of fairness and accountability when interpreting results.
+
+One key area I focus on is the potential for misrepresentation or misuse of data. Students learn to critically evaluate the quality and source of their data, considering questions such as: Who collected this data? What assumptions underlie its collection? What potential biases might influence its interpretation? This reflective approach ensures that students develop a conscientious mindset towards the power and responsibility that come with handling data.
+
+Another significant aspect is teaching students about privacy and confidentiality. With growing concerns over data breaches and misuse, students explore frameworks for ensuring that personal or sensitive information is safeguarded during analysis. Through case studies and discussions, I highlight real-world examples of ethical dilemmas and encourage students to propose solutions grounded in established ethical guidelines.
+
+As @scheaffer1998 emphasized, statistical education must include the awareness of the societal impact of statistical methods. This means teaching students not only to be proficient analysts but also to act as ethical stewards of the data they handle.
+
+Finally, I incorporate discussions on the ethical implications of algorithmic decision-making, especially in the context of machine learning and artificial intelligence. Students are introduced to the concepts of algorithmic fairness and the risks of perpetuating biases through automated systems. By understanding these challenges, students are better prepared to contribute to a field that increasingly influences societal decisions.
+
+### Assessment as a Tool for Learning
+
+Assessments in my courses are designed not only to evaluate student performance but also to enhance learning [@hubbard1997assessment]. By integrating coding as an essential component, I aim to bridge theoretical mathematics with algorithmic thinking. Students are not only required to demonstrate their understanding of econometric and statistical concepts but also to implement these concepts programmatically using tools like Python and R (see @@sec-wiseflow).
+
+For example, I incorporate exercises that use R or Python to solve mathematical problems, optimize functions, and model complex systems [@sierra2020]. This approach helps students transition from abstract mathematical reasoning to tangible, applied problem-solving skills. Additionally, version control tools such as [Git](https://en.wikipedia.org/wiki/Git) and platforms like [GitHub](https://en.wikipedia.org/wiki/GitHub) are integral to my courses [@beckman2021]. Students learn to manage their code repositories, collaborate on projects, and integrate their work with our Learning Management System (LMS), Canvas. These practices mirror professional workflows, preparing students for careers in data-intensive fields.
+
+The use of SaaS platforms, like WISEflow, further enhances the assessment process. Practical exams conducted on this platform allow me to test students' applied skills in econometrics and data analysis (@pfannkuch2000). Beyond grading, WISEflow enables me to provide detailed feedback reports to students, highlighting their strengths and areas for improvement. This iterative feedback mechanism helps students refine their skills and deepen their understanding of the material.
+
+By integrating coding, algorithmic thinking, and modern technological tools into assessments, I ensure that students gain a comprehensive, practical, and forward-looking education [@combs2008]. I also use the same tools to automatically give students individual feedback on their performance in a class (see @sec-grade). These strategies not only measure student performance but also foster a continuous learning process that equips them with the skills to excel in academia and industry.
+
+## Plans Ahead
+
+Looking forward, the master program in Economics with Data Science is incorporating cutting-edge machine learning techniques that extend beyond the traditional methodological toolbox typically available to economists [@varian2014]. These advancements are essential as we aim to equip students with the skills required to analyze complex and unstructured data, including text, which has become increasingly relevant in both research and industry [@bickley2022].
+
+My own research now includes using text as data [@gentzkow2019], leveraging advancements such as Large Language Models (LLMs). These tools have transformed how we analyze and interpret textual information, making them a necessary component of our teaching. By integrating LLMs into the curriculum, we provide students with the opportunity to work with text data in ways that were previously unattainable. For instance, students learn how to preprocess, analyze, and extract meaningful insights from text, ensuring they are well-prepared to navigate a data-rich, text-driven world.
+
+In addition to teaching text analysis, we are also exploring how LLMs can support students in solving coding tasks. These tools have the potential to reduce the barriers students often face when learning to program, offering real-time assistance in debugging and refining their code. As part of this initiative, we are investigating ways to seamlessly incorporate LLMs into the teaching environment, ensuring they are used effectively as educational aids rather than shortcuts.
+
+Beyond the Economics with Data Science programs, coding skills are now being integrated into other programs at the Business School. This expansion reflects a broader shift toward embedding computational literacy across disciplines. I am committed to contributing to this development, ensuring that all students have access to the tools and training necessary for data-driven decision-making.
+
+Furthermore, many researchers and students at the Business School currently focus on traditional qualitative analysis. As the use of text analytics becomes more prevalent, there will be a growing need to support these individuals in transitioning to approaches that treat text as data suitable for computational analysis. By providing targeted training and resources, we can help staff and students adopt these methodologies, enriching their research capabilities and preparing them for the future of qualitative and mixed-methods research.
+
+These plans represent a commitment to staying at the forefront of educational and technological innovation, ensuring that our students and staff are well-equipped to meet the challenges and opportunities of a rapidly evolving academic and professional landscape.
+
+\pagebreak
+
+# @sec-bed2056: Teaching Philosophy in Action - "BED-2056 Introduction to Data Science" {#sec-bed2056}
+
+The BED-2056 course, which ran from 2018 to 2021, exemplified my teaching philosophy by introducing economics students to the interdisciplinary field of data science [@hicks2018]. Designed to foster skills at the intersection of statistics, data visualization, programming, and applied problem-solving, the course served as an inspiration for development of the "Samfunnsøkonomi med datavitenskap - bachelor" program, underscoring its foundational role in advancing economics education.
+
+A core feature of BED-2056 was its integration of theoretical knowledge with practical application [@hardin2015]. Students used tools like R and RStudio to clean, visualize, and analyze data, tackling real-world tasks such as working with APIs, web scraping, and time-series analysis. This hands-on approach ensured that students moved beyond procedural learning, developing a deeper understanding of concepts such as variability, randomness, and distribution [@gilboa2008]. Activities like creating reproducible R Markdown documents and using Git-based workflows emphasized investigative learning and practical competence.
+
+Collaboration and critical thinking were central to the course. Students worked on group data science projects, mirroring real-world environments where teamwork and problem-solving are essential. By incorporating open-source tools, BED-2056 eliminated financial barriers while equipping students with practical, sustainable skills in data extraction, cleaning, and visualization.
+
+The course also leveraged platforms like [datacamp](https://app.datacamp.com/) for interactive coding exercises, providing instant feedback to reinforce programming skills. A strong focus on reproducibility and ethical data practices was maintained throughout, with assignments and projects submitted via GitHub to instill a conscientious approach to data handling.
+
+Assessments were designed to connect theoretical concepts with algorithmic thinking. Coding exercises and project presentations ensured that students demonstrated their ability to translate abstract ideas into practical applications. This approach highlighted the course’s commitment to fostering a comprehensive, applied understanding of data science.
+
+To me BED-2056 stands as a successful implementation of my teaching philosophy, bridging theoretical principles with practical education to prepare students for the complexities of modern, data-driven economics and finance. Its integration into the new bachelor program and the positive feedback from students reflect its impact in shaping innovative, interdisciplinary learning at UiT.
+
+The BED-2056 course not only embodied my teaching philosophy but also served as a catalyst for a broader transformation within the economics program at UiT. When the course was first introduced in 2018, it attracted a modest enrollment of 16 students. However, its innovative approach, blending data science with economic analysis, resonated strongly with students, and by 2020, enrollment had more than doubled to 36 students. This growth highlighted the increasing demand for a curriculum that integrates programming, data analysis, and applied problem-solving with traditional economics education.
+
+The success of BED-2056 sparked conversations among faculty and stakeholders about the evolving needs of economics students in a data-driven world. Recognizing the course's impact, we began reimagining the entire economics program, ultimately leading to the launch of the "Economics with Data Science" bachelor's program in 2021. This new program built upon the foundations established in BED-2056, emphasizing programming skills, real-world data analysis, and interdisciplinary learning throughout the curriculum.
+
+The transition represents a significant evolution in economics education at UiT, reflecting the growing importance of equipping students with the tools and mindset to navigate the complexities of modern economic and societal challenges. The transformation of the program, inspired by the success of BED-2056, ensures that students are prepared to meet the demands of a rapidly changing job market while contributing meaningfully to research and policy-making in an increasingly data-centric world.
+
+\pagebreak
+
+# @sec-newprog: Economics with Data Science - A New Educational Approach {#sec-newprog}
+
+The Bachelor and Master programs in Economics with Data Science at the Business School, UiT, represent a significant evolution in economics education. Initiated in 2021 for the bachelor level and expanded to the master level in 2024, these programs integrate advanced economic analysis with data science, addressing the growing need for interdisciplinary expertise in today's data-driven world [@engel2017]. This innovative approach emerged from a recognition that traditional economics education needed to evolve to meet contemporary challenges and the demands of the employment market.
+
+The development process involved collaboration with diverse stakeholders, including industry representatives, research institutions, alumni, current students, and professionals. This collaborative effort identified key challenges in traditional economics education, particularly the disconnect between theoretical knowledge and practical application. Stakeholder feedback emphasized the importance of practical skills, interdisciplinary knowledge, and the ability to communicate findings effectively.
+
+A distinctive feature of these programs is the integration of programming and data analysis into every course, setting them apart from traditional economics curricula. Recognizing that many economics students find programming challenging, the curriculum embeds coding as a continuous element rather than isolating it to specific courses. Students engage with programming languages like Python and R throughout their studies, applying these tools to solve real economic problems and analyze actual economic data.
+
+The bachelor's program provides a strong foundation in both economics and data science. Students begin their journey with foundational courses that integrate economic concepts with coding, ensuring early exposure to essential skills. As they progress, advanced courses combine economic theory with practical analysis, encouraging students to apply their knowledge to contemporary societal challenges, as advocated by @sekwena2023. The program ends with a bachelor thesis, allowing students to synthesize their skills and conduct independent research using modern data science techniques.
+
+Building on this foundation, the master’s program offers advanced training in economic analysis and data science. The curriculum is designed around themed semesters, progressively covering static linear models in economics, time series and dynamic economic models, and causal analysis of individual and group behavior. The program concludes with a research-based master thesis, presented in the format of a scholarly article, reflecting rigorous academic standards.
+
+A key innovation in these programs is the development of a digital portfolio that serves as an "academic CV." Students showcase their analyses, coding projects, and findings, shifting the emphasis from traditional grades to demonstrable competence. The programs also utilize a custom-developed Content Management System (CMS) that standardizes course presentation, ensuring easy access to content and supporting modern, technology-enhanced learning while maintaining consistency across courses (see @sec-casebnp and the github [link](https://uit-sok-1004-h21.github.io/forelesningsplan.html)).
+
+The success of these programs is evident in the significant growth in student enrollment, which more than doubled the numer of applicants to the bachelor programme when it was initiated. The innovative design and implementation earned recognition from our faculty, winning the 2022 "Utdanningsprisen" (educational award). Early indicators suggest that graduates are well-prepared for careers in both private and public sectors. The combination of economic theory, practical programming skills, and data analysis capabilities makes them particularly attractive to employers seeking analysts capable of handling complex economic and data challenges.
+
+By integrating programming throughout the curriculum and emphasizing applied analysis, the Economics with Data Science programs equip students to thrive in a rapidly evolving economic landscape. This pioneering approach ensures graduates are not only adept at using data science tools but also capable of addressing complex economic challenges with creativity and confidence.
+
+\pagebreak
+
+# @sec-casebnp: Introduction to Reproducible Research with "Bruttonasjonalprodukt - BNP" {#sec-casebnp}
+
+In the first semester of the new bachelor’s program in Economics with Data Science, students are introduced to key concepts of economic analysis and data visualization through a practical case study on Gross Domestic Product (GDP) per capita, or "Bruttonasjonalprodukt" (BNP). This example, implemented in *SOK-1004 Economic Topics and Programming* in 2021, integrates economic theory, mathematics, and reproducible research practices using R and [Quarto](https://quarto.org/) (formerly R Markdown). The whole course plan and student resources is still available on github [here](https://uit-sok-1004-h21.github.io/forelesningsplan.html).
+
+Using GDP data from Statistics Norway (Statistisk Sentralbyrå, SSB), students explore GDP trends and learn how to source, analyze, and visualize real-world data. A key component of the exercise is introducing reproducible code, where all analysis and visualizations can be automatically updated when the data changes. The rendered web page can be found on github [here](https://uit-sok-1004-h21.github.io/case_1_bnp.html).
+
+The BNP case connects economic theory and mathematical principles with hands-on data visualization. Students analyze GDP as a measure of economic performance, applying mathematical concepts like percentage changes and logarithmic transformations. They use R to create dynamic visualizations, fostering both conceptual understanding and technical skills.
+
+Through coding exercises, students generate plots to depict GDP trends over time and calculate growth rates. This hands-on approach demonstrates the relevance of mathematical and statistical concepts in economic decision-making and policy analysis.
+
+Reproducibility is seamlessly embedded into this exercise. All analyses are performed using R and Quarto, ensuring that:
+
+-   **Dynamic Analysis**: Rerunning the code automatically updates all tables and figures when new data is available.
+-   **Transparency**: Every step, from raw data collection to final visualization, is documented and replicable.
+-   **Real-World Relevance**: Students learn to work with APIs to source live data from SSB, gaining practical experience in modern data workflows.
+
+To highlight reproducibility, students use Quarto to create both the source markdown document (`.qmd`) and a rendered HTML output. Below is an example of the markdown code:
+
+![Markdown Code Example](markdown_code_example.png)
+
+The rendered output is shown below:
+
+![Rendered HTML Page](rendered_html_output.png)
+
+**How it works**: Students write code and narrative text in a `.qmd` file. Quarto processes the `.qmd` file to generate a styled HTML page or other formats (e.g., PDF or Word). Any updates to the code or data automatically refresh the rendered output, ensuring consistency across the document.
+
+This workflow introduces students to reproducible research principles, preparing them for advanced projects and professional environments.
+
+Students engage with tasks such as calculating GDP growth rates, creating visualizations, and analyzing trends over time. A guided exercise demonstrates the advantages of using reproducible methods, showing how charts and analyses adjust automatically when rerun. By the end of the exercise, students: understand GDP as an economic indicator, apply mathematical concepts to analyze growth, master basic R coding for data visualization, and appreciate the importance of reproducibility in research and analysis. The *Bruttonasjonalprodukt - BNP* case serves as a foundation for students’ academic journey, equipping them with the skills and mindset needed for data-intensive fields in economics and beyond.
+
+\pagebreak
+
+# @sec-jupyter: Online Coding Platform - "Jupyter at UiT" {#sec-jupyter}
+
+Introducing first-year students to coding can be a significant challenge, particularly when they must navigate the complexities of installing open-source software like R or Python alongside numerous dependencies. Recognizing this barrier, I took the initiative to collaborate with UiT's IT department to create a common coding service accessible to all students and staff. This effort was spearheaded with the invaluable support of Roy Dragseth, whose expertise and dedication made the project possible.
+
+The journey began with the creation of *rstudio.uit.no*, a web-based platform exclusively for the R programming language. While effective, its scope was limited to R users. Roy subsequently developed [jupyter.uit.no](https://jupyter.uit.no/hub/login?next=%2Fhub%2F), an expanded platform encompassing R, Python, SageMath, and xSQL. This evolution has transformed the coding learning environment at UiT, offering a robust, cloud-based coding solution for diverse needs across disciplines.
+
+Jupyter is an interactive computing environment that supports multiple programming languages through a single interface [@granger2021]. Students and staff can log in seamlessly using their UiT Feide credentials and access a virtual workspace from any web browser. The platform eliminates the need for local installations, ensuring users can start coding immediately without worrying about software compatibility or updates. This accessibility makes it an ideal tool for students embarking on their coding journey, allowing them to focus on learning and experimentation rather than technical setup.
+
+The simplicity and efficiency of Jupyter have made it an indispensable resource. Students can write, execute, and share their code within a highly intuitive interface. For example, in the case of learning R, they can create and run a basic "Hello Jupyter" script directly in their browser, experiencing the immediate satisfaction of seeing their code in action [@al2022]. 
+
+The *launch window* of Jupyter greets users with an organized interface, offering options to start new notebooks in various programming languages or open existing projects. It provides an overview of available resources, ensuring users can quickly navigate to their workspace. The coding interface itself is clean and functional, presenting a notebook-style environment where users can write text, execute code, and visualize results seamlessly in one document.
+
+![Jupyter Launch Window](jupyter.png)
+
+The Jupyter launch window provides users with options to create new notebooks in multiple programming languages, open existing projects, or explore uploaded files. The clean and organized interface makes it easy for students and staff to navigate and start their coding journey effortlessly.
+
+![Hello R Code Example](jupyter2.png)
+
+A simple "Hello Jupyter" example written and executed in Jupyter using the R kernel. This demonstrates how first-year students can begin coding immediately without local installations, focusing on understanding programming concepts rather than troubleshooting software setup.
+
+This platform not only lowers the barrier to entry for coding but also fosters a collaborative learning environment. With reproducibility and accessibility as its core strengths, Jupyter is now an integral part of UiT’s commitment to modernizing education and equipping students with essential skills for data-driven disciplines. The availability of such a versatile and powerful tool reflects UiT's dedication to providing high-quality, inclusive education in the digital age.
+
+\pagebreak
+
+# @sec-wiseflow: Online WISEflow Exam {#sec-wiseflow}
+
+The introduction of the SaaS client WISEflow at UiT in 2017 opened new possibilities for assessing students in innovative ways. Recognizing its potential, I adapted my courses to incorporate practical coding tasks as part of the exam process. This approach not only evaluates theoretical understanding but also ensures that students gain recognition for their coding skills—an essential aspect of modern quantitative education.
+
+In the course *SOK-3020 Econometrics*, the exam structure exemplifies this integration. It consists of two parts: a closed session with traditional theoretical questions and an open-book session where students have access to coding tools and online resources. During the open session, students work on practical coding exercises, applying econometric and statistical techniques to real-world data. This format ensures that their ability to translate theoretical concepts into actionable analysis is thoroughly assessed. 
+
+For example, students may be tasked with writing and executing R code to estimate a statistical model and then interpreting the output. WISEflow provides a user-friendly environment where students can paste their R code directly into the submission interface, ensuring their work is easily reviewed and assessed. Additionally, interactive elements like a "drag and drop" interface are used for tasks such as interpreting model estimates, enabling students to demonstrate their understanding in a clear and structured way.
+
+![R Code Submission in WISEflow](wiseflow1.png)
+
+WISEflow's interface for submitting R code during the open-book exam. Students paste their code here for evaluation, demonstrating their ability to implement econometric and statistical techniques programmatically.
+
+![Drag-and-Drop Interpretation Interface in WISEflow](wiseflow2.png)
+
+An example of WISEflow's drag-and-drop interface, where students interpret estimated models by matching outputs to corresponding explanations. This feature allows for an intuitive and interactive assessment of their analytical understanding.
+
+This approach bridges the gap between theoretical knowledge and practical application, fostering a comprehensive learning experience. Students not only master statistical methods but also develop the critical skill of effectively communicating their findings—both essential for professional success in data-driven disciplines.
+
+\pagebreak
+
+# @sec-grade: Automated Grade Explanation for All {#sec-grade}
+
+Following the implementation of the "Online WISEflow Exam" in @sec-wiseflow, I leveraged the platform's capabilities to streamline the grading process and provide comprehensive feedback to students. WISEflow allows for automated point allocation for specific questions, which I augment with my own comments on the coding tasks. After the exam, I download a `.csv` file containing all candidate responses and scores, which I process programmatically to generate individual reports.
+
+Using Markdown in Quarto, I create a reproducible workflow that integrates my comments with the students' performance data. The grading process is automated to cycle through all candidate numbers, embedding personalized feedback into a standardized report template. Each report is rendered as a PDF, providing a "karakterbegrunnelse" (grade explanation) tailored to the student's performance [@edwards2007]. The reports are then uploaded back into each student's exam on WISEflow, ensuring transparency and consistency in grading.
+
+This workflow mirrors the principles of reproducible research that I emphasize in teaching, as demonstrated in @sec-casebnp. By automating the grading process, I ensure that every student receives clear, detailed feedback on their performance while maintaining high standards of fairness and efficiency.
+
+![Downloaded .csv File from WISEflow](grade1.png)
+The downloaded .csv file from WISEflow contains candidate numbers, scores, and responses. This file is processed programmatically to generate individual feedback reports.
+
+![Markdown Code for Feedback Reports in RStudio](grade2.png)
+The Markdown code in RStudio used to generate personalized PDF reports for each student. This workflow ensures reproducibility and efficiency in the grading process.
+
+![Final PDF Report for a Candidate](grade3.png)
+
+An example of a final PDF report generated for a specific candidate number, detailing their performance and feedback on the exam.
+
+\pagebreak
+
+# @sec-partner: Partnering with Students for Continuous Improvement {#sec-partner}
+
+A key aspect of my teaching philosophy is fostering a collaborative learning environment where students actively contribute to the improvement of courses and programs. For many years, I have conducted mid-term evaluations in my classes, using student feedback to identify areas for enhancement [@mccuddy2008]. This practice has been further strengthened with the introduction of the new bachelor’s program, where we hold regular meetings with student representatives [@brooman2015]. These discussions address both the content of the curriculum and practical concerns, such as the timing of assignments and final exams. The active involvement of students ensures that the program evolves in response to their needs, making them valuable partners in shaping their education.
+
+One significant outcome of this feedback process is the development of detailed class notes and handouts that clarify challenging aspects of the curriculum. For example, in the advanced course *SOK-3008 Models for Market Analysis*, I created a handout on panel data analysis to guide students through this complex topic. These materials not only address specific student concerns but also serve as resource that enhance their understanding and engagement with the subject matter.
+
+![Handout on Panel Data Analysis](panel.png)
+
+A sample handout on panel data analysis for the advanced course SOK-3008. This material was developed in response to student feedback to clarify key concepts and methods in the curriculum.
+
+\pagebreak
+
+# @sec-lettrec: Letter of recommendation from department head {#sec-lettrec}
+
+Not available online.
+
+\pagebreak
+
+## References
