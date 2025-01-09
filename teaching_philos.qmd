@@ -2,7 +2,7 @@
 title: "My Teaching Philosophy"
 subtitle: "Evolving Education in Econometrics and Data Science"
 author: "Øystein Myrland"
-output: pdf
+output: html
 toc: true
 toc_depth: 3
 editor: visual
@@ -17,7 +17,7 @@ date-format: "DD/MM/YYYY"
 
 My name is Øystein Myrland, from Andenes in Nordland. I am a professor (since 2007) of Economics at The School of Business and Economics. My long-term relationship with UiT The Arctic University of Norway dates back to my enrollment as a student back in 1986. During my studies, I was introduced to teaching during study groups, where I often ended up lecturing my fellow students during sessions—a role I found both stimulating and very engaging. This early experience sparked my passion for teaching, a commitment that has only deepened over the years. As you will notice, most of this document is written in English. The reason for this is that the majority of my current and historical classes, mainly at the master’s and PhD level, have been taught in English, largely because they are part of the Erasmus program—a European Union initiative to support education, training, and international exchange. Additionally, all my research is conducted and published in English. Only recently have I begun teaching in Norwegian at the bachelor’s level, marking an interesting shift in my teaching journey, transitioning from teaching advanced topics to guiding students through foundational concepts.
 
-I began my formal teaching career during my PhD project in 1996, with a strong emphasis on quantitative courses. Early in my career, I taught econometrics and market analysis courses using proprietary software like Shazam [@byron1987], SPSS [@hilbe2003;@hilbe2004;@hilbe2005], and Stata [@gutierrez2010] for the traditionally required empirical "data labs" [@kaplan2018]. Recognizing the growing potential of open-source tools, I started using R in 2007 [@r2024] and fully integrated it into my quantitative courses by 2015. This transition was driven by my belief in equipping students with accessible, practical tools that bridge theory and application (see @sec-bed2056).
+I began my formal teaching career during my PhD project in 1996, with a strong emphasis on quantitative courses. Early in my career, I taught econometrics and market analysis courses using proprietary software like Shazam [@byron1987], SPSS [@hilbe2003; @hilbe2004; @hilbe2005], and Stata [@gutierrez2010] for the traditionally required empirical "data labs" [@kaplan2018]. Recognizing the growing potential of open-source tools, I started using R in 2007 [@r2024] and fully integrated it into my quantitative courses by 2015. This transition was driven by my belief in equipping students with accessible, practical tools that bridge theory and application (see @sec-bed2056).
 
 Throughout my teaching journey, I noticed a recurring challenge: students often focused solely on exam-related content, neglecting the practical application of statistical software and coding skills. This gap became evident when supervising master’s students who excelled in theoretical exams but lacked hands-on experience during the practical work on their master thesis (see @sec-wiseflow). The introduction of the WISEflow digital assessment platform in 2017 provided an opportunity to address this. By incorporating practical coding tasks into exams, I ensured that students developed not only theoretical knowledge but also the applied skills essential for real-world problem-solving.
 
@@ -33,14 +33,14 @@ In the appendices, called "Sections" of this document, I provide examples of how
 
 In addition to the main body of this document, which describes my core principles of teaching, I have included the following sections/appendices to highlight my teaching approach and educational development.
 
-@sec-bed2056: Teaching Philosophy in Action - "BED-2056 Introduction to Data Science"   
-@sec-newprog: Economics with Data Science - A New Educational Approach  
-@sec-casebnp: Introduction to Reproducible Research with "Bruttonasjonalprodukt - BNP"  
-@sec-jupyter: Online Coding Platform - "Jupyter at UiT"  
-@sec-wiseflow: Online WISEflow Exam  
-@sec-grade: Automated Grade Explanation for All  
-@sec-partner: Partnering with Students for Continuous Improvement  
-@sec-lettrec: Letter of recommendation from department head  
+@sec-bed2056: Teaching Philosophy in Action - "BED-2056 Introduction to Data Science"\
+@sec-newprog: Economics with Data Science - A New Educational Approach\
+@sec-casebnp: Introduction to Reproducible Research with "Bruttonasjonalprodukt - BNP"\
+@sec-jupyter: Online Coding Platform - "Jupyter at UiT"\
+@sec-wiseflow: Online WISEflow Exam\
+@sec-grade: Automated Grade Explanation for All\
+@sec-partner: Partnering with Students for Continuous Improvement\
+@sec-lettrec: Letter of recommendation from department head
 
 ## Core Principles of Teaching
 
@@ -108,7 +108,7 @@ Initially, my teaching approach was rooted in traditional "talk and chalk" metho
 
 Each assignment is designed to mirror real-world scenarios, requiring students to apply theoretical concepts to data-driven problems. For example, students may analyze datasets to identify trends, create predictive models, or evaluate policy impacts. This approach not only solidifies their understanding of the material but also prepares them for the complexities of professional environments (see @sec-newprog).
 
-The importance of active learning is echoed in educational research, which highlights the benefits of experiential learning and student-centered approaches [@alderman2012;@mandouit2018]. Fostering statistical literacy and thinking requires students to engage with real data in relevant contexts. By designing assignments that simulate scientific laboratories rather than traditional classrooms, I provide students with the tools to navigate the dynamic landscape of modern data analysis.
+The importance of active learning is echoed in educational research, which highlights the benefits of experiential learning and student-centered approaches [@alderman2012; @mandouit2018]. Fostering statistical literacy and thinking requires students to engage with real data in relevant contexts. By designing assignments that simulate scientific laboratories rather than traditional classrooms, I provide students with the tools to navigate the dynamic landscape of modern data analysis.
 
 Collaboration is another critical component of my teaching. Group assignments encourage students to share diverse perspectives, hone their communication skills, and learn from one another. These experiences mirror professional settings, where teamwork is essential for success. By working together, students not only deepen their understanding but also build essential interpersonal skills that will serve them throughout their careers (see @sec-newprog).
 
@@ -140,7 +140,7 @@ Finally, I incorporate discussions on the ethical implications of algorithmic de
 
 ### Assessment as a Tool for Learning
 
-Assessments in my courses are designed not only to evaluate student performance but also to enhance learning [@hubbard1997assessment]. By integrating coding as an essential component, I aim to bridge theoretical mathematics with algorithmic thinking. Students are not only required to demonstrate their understanding of econometric and statistical concepts but also to implement these concepts programmatically using tools like Python and R (see @@sec-wiseflow).
+Assessments in my courses are designed not only to evaluate student performance but also to enhance learning [@hubbard1997assessment]. By integrating coding as an essential component, I aim to bridge theoretical mathematics with algorithmic thinking. Students are not only required to demonstrate their understanding of econometric and statistical concepts but also to implement these concepts programmatically using tools like Python and R (see \@@sec-wiseflow).
 
 For example, I incorporate exercises that use R or Python to solve mathematical problems, optimize functions, and model complex systems [@sierra2020]. This approach helps students transition from abstract mathematical reasoning to tangible, applied problem-solving skills. Additionally, version control tools such as [Git](https://en.wikipedia.org/wiki/Git) and platforms like [GitHub](https://en.wikipedia.org/wiki/GitHub) are integral to my courses [@beckman2021]. Students learn to manage their code repositories, collaborate on projects, and integrate their work with our Learning Management System (LMS), Canvas. These practices mirror professional workflows, preparing students for careers in data-intensive fields.
 
@@ -246,7 +246,7 @@ The journey began with the creation of *rstudio.uit.no*, a web-based platform ex
 
 Jupyter is an interactive computing environment that supports multiple programming languages through a single interface [@granger2021]. Students and staff can log in seamlessly using their UiT Feide credentials and access a virtual workspace from any web browser. The platform eliminates the need for local installations, ensuring users can start coding immediately without worrying about software compatibility or updates. This accessibility makes it an ideal tool for students embarking on their coding journey, allowing them to focus on learning and experimentation rather than technical setup.
 
-The simplicity and efficiency of Jupyter have made it an indispensable resource. Students can write, execute, and share their code within a highly intuitive interface. For example, in the case of learning R, they can create and run a basic "Hello Jupyter" script directly in their browser, experiencing the immediate satisfaction of seeing their code in action [@al2022]. 
+The simplicity and efficiency of Jupyter have made it an indispensable resource. Students can write, execute, and share their code within a highly intuitive interface. For example, in the case of learning R, they can create and run a basic "Hello Jupyter" script directly in their browser, experiencing the immediate satisfaction of seeing their code in action [@al2022].
 
 The *launch window* of Jupyter greets users with an organized interface, offering options to start new notebooks in various programming languages or open existing projects. It provides an overview of available resources, ensuring users can quickly navigate to their workspace. The coding interface itself is clean and functional, presenting a notebook-style environment where users can write text, execute code, and visualize results seamlessly in one document.
 
@@ -266,7 +266,7 @@ This platform not only lowers the barrier to entry for coding but also fosters a
 
 The introduction of the SaaS client WISEflow at UiT in 2017 opened new possibilities for assessing students in innovative ways. Recognizing its potential, I adapted my courses to incorporate practical coding tasks as part of the exam process. This approach not only evaluates theoretical understanding but also ensures that students gain recognition for their coding skills—an essential aspect of modern quantitative education.
 
-In the course *SOK-3020 Econometrics*, the exam structure exemplifies this integration. It consists of two parts: a closed session with traditional theoretical questions and an open-book session where students have access to coding tools and online resources. During the open session, students work on practical coding exercises, applying econometric and statistical techniques to real-world data. This format ensures that their ability to translate theoretical concepts into actionable analysis is thoroughly assessed. 
+In the course *SOK-3020 Econometrics*, the exam structure exemplifies this integration. It consists of two parts: a closed session with traditional theoretical questions and an open-book session where students have access to coding tools and online resources. During the open session, students work on practical coding exercises, applying econometric and statistical techniques to real-world data. This format ensures that their ability to translate theoretical concepts into actionable analysis is thoroughly assessed.
 
 For example, students may be tasked with writing and executing R code to estimate a statistical model and then interpreting the output. WISEflow provides a user-friendly environment where students can paste their R code directly into the submission interface, ensuring their work is easily reviewed and assessed. Additionally, interactive elements like a "drag and drop" interface are used for tasks such as interpreting model estimates, enabling students to demonstrate their understanding in a clear and structured way.
 
@@ -290,11 +290,9 @@ Using Markdown in Quarto, I create a reproducible workflow that integrates my co
 
 This workflow mirrors the principles of reproducible research that I emphasize in teaching, as demonstrated in @sec-casebnp. By automating the grading process, I ensure that every student receives clear, detailed feedback on their performance while maintaining high standards of fairness and efficiency.
 
-![Downloaded .csv File from WISEflow](grade1.png)
-The downloaded .csv file from WISEflow contains candidate numbers, scores, and responses. This file is processed programmatically to generate individual feedback reports.
+![Downloaded .csv File from WISEflow](grade1.png) The downloaded .csv file from WISEflow contains candidate numbers, scores, and responses. This file is processed programmatically to generate individual feedback reports.
 
-![Markdown Code for Feedback Reports in RStudio](grade2.png)
-The Markdown code in RStudio used to generate personalized PDF reports for each student. This workflow ensures reproducibility and efficiency in the grading process.
+![Markdown Code for Feedback Reports in RStudio](grade2.png) The Markdown code in RStudio used to generate personalized PDF reports for each student. This workflow ensures reproducibility and efficiency in the grading process.
 
 ![Final PDF Report for a Candidate](grade3.png)
 

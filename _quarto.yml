@@ -1,8 +1,10 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "My Teaching Philosophy"
   navbar:
-    - title: Home
-      href: teaching_philos.qmd
+    items:
+      - title: Home
+        href: teaching_philos.qmd
