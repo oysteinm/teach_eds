@@ -140,7 +140,7 @@ Finally, I incorporate discussions on the ethical implications of algorithmic de
 
 ### Assessment as a Tool for Learning
 
-Assessments in my courses are designed not only to evaluate student performance but also to enhance learning [@hubbard1997assessment]. By integrating coding as an essential component, I aim to bridge theoretical mathematics with algorithmic thinking. Students are not only required to demonstrate their understanding of econometric and statistical concepts but also to implement these concepts programmatically using tools like Python and R (see \@@sec-wiseflow).
+Assessments in my courses are designed not only to evaluate student performance but also to enhance learning [@hubbard1997assessment]. By integrating coding as an essential component, I aim to bridge theoretical mathematics with algorithmic thinking. Students are not only required to demonstrate their understanding of econometric and statistical concepts but also to implement these concepts programmatically using tools like Python and R (see @sec-wiseflow).
 
 For example, I incorporate exercises that use R or Python to solve mathematical problems, optimize functions, and model complex systems [@sierra2020]. This approach helps students transition from abstract mathematical reasoning to tangible, applied problem-solving skills. Additionally, version control tools such as [Git](https://en.wikipedia.org/wiki/Git) and platforms like [GitHub](https://en.wikipedia.org/wiki/GitHub) are integral to my courses [@beckman2021]. Students learn to manage their code repositories, collaborate on projects, and integrate their work with our Learning Management System (LMS), Canvas. These practices mirror professional workflows, preparing students for careers in data-intensive fields.
 
