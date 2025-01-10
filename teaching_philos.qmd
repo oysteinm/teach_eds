@@ -242,7 +242,7 @@ Students engage with tasks such as calculating GDP growth rates, creating visual
 
 Introducing first-year students to coding can be a significant challenge, particularly when they must navigate the complexities of installing open-source software like R or Python alongside numerous dependencies. Recognizing this barrier, I took the initiative to collaborate with UiT's IT department to create a common coding service accessible to all students and staff. This effort was spearheaded with the invaluable support of Roy Dragseth, whose expertise and dedication made the project possible.
 
-The journey began with the creation of *rstudio.uit.no*, a web-based platform exclusively for the R programming language. While effective, its scope was limited to R users. Roy subsequently developed [jupyter.uit.no](https://jupyter.uit.no/hub/login?next=%2Fhub%2F), an expanded platform encompassing R, Python, SageMath, and xSQL. This evolution has transformed the coding learning environment at UiT, offering a robust, cloud-based coding solution for diverse needs across disciplines.
+The journey began with the creation of *rstudio.uit.no*, a web-based platform exclusively for the R programming language. While effective, its scope was limited to R users. Roy subsequently developed [jupyter.uit.no](https://jupyter.uit.no/hub/login?next=%2Fhub%2F), an expanded platform encompassing [R](https://www.r-project.org/), [Python](https://www.python.org/), [SageMath](https://www.sagemath.org/), and [xeus-sql](https://github.com/jupyter-xeus/xeus-sql). This evolution has transformed the coding learning environment at UiT, offering a robust, cloud-based coding solution for diverse needs across disciplines.
 
 Jupyter is an interactive computing environment that supports multiple programming languages through a single interface [@granger2021]. Students and staff can log in seamlessly using their UiT Feide credentials and access a virtual workspace from any web browser. The platform eliminates the need for local installations, ensuring users can start coding immediately without worrying about software compatibility or updates. This accessibility makes it an ideal tool for students embarking on their coding journey, allowing them to focus on learning and experimentation rather than technical setup.
 
@@ -258,7 +258,9 @@ The Jupyter launch window provides users with options to create new notebooks in
 
 A simple "Hello World!" example written and executed in Jupyter using the R kernel. This demonstrates how first-year students can begin coding immediately without local installations, focusing on understanding programming concepts rather than troubleshooting software setup.
 
-This platform not only lowers the barrier to entry for coding but also fosters a collaborative learning environment. With reproducibility and accessibility as its core strengths, Jupyter is now an integral part of UiT’s commitment to modernizing education and equipping students with essential skills for data-driven disciplines. The availability of such a versatile and powerful tool reflects UiT's dedication to providing high-quality, inclusive education in the digital age.
+This platform not only lowers the barrier to entry for coding but also fosters a collaborative learning environment. With reproducibility and accessibility as its core strengths, Jupyter is now an integral part of UiT’s commitment to modernizing education and equipping students with essential skills for data-driven disciplines. The availability of such a versatile and powerful tool reflects UiT's dedication[^3] to providing high-quality, inclusive education in the digital age.
+
+[^3]: The IT department continues the development of this platform, and during the fall of 2025, the [Julia language](https://julialang.org/) and GPU-based [PyTorch](https://pytorch.org/) estimation for machine learning will be included.
 
 \pagebreak
 
