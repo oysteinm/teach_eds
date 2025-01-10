@@ -74,7 +74,7 @@ To foster this understanding, I emphasize an investigative approach to learning.
 
 In line with @dysthe2001 emphasis on dialogic learning, my teaching philosophy recognizes the centrality of dialogue and interaction in fostering deep learning. Dysthe’s framework highlights how learning is co-constructed through meaningful exchanges among students, teachers, and the wider learning environment. By creating opportunities for collaborative problem-solving and peer discussions, I aim to transform the classroom into a dialogic space where diverse perspectives contribute to understanding [@brooman2015].
 
-This approach aligns with my use of collaborative assignments (see @sec-partner), hands-on coding projects (see @sec-casebnp), and my emphasis on student engagement through mid-term feedback (see @sec-partner). Encouraging students to reflect on their learning processes, share their insights, and challenge each other's ideas not only deepens their understanding but also equips them with critical thinking and communication skills essential for professional success.
+This approach aligns with my use of collaborative assignments, hands-on coding projects (see @sec-casebnp), and my emphasis on student engagement through mid-term feedback (see @sec-partner). I also supervise students on their term papers and strive to provide as much individual feedback as possible on assignments, ensuring personalized guidance in their learning journey. Encouraging students to reflect on their learning processes, share their insights, and challenge each other's ideas not only deepens their understanding but also equips them with critical thinking and communication skills essential for professional success.
 
 Another key element is the use of engaging examples and case studies that highlight the role of econometrics as an exploratory and decision-making tool. These examples illustrate that econometrics is not merely a set of disconnected formulas but a coherent process aimed at uncovering insights from data. For instance, analyzing real-world datasets can help students see how statistical models are built and validated, and how they inform decisions in various domains (see @sec-newprog).
 
@@ -246,7 +246,7 @@ The journey began with the creation of *rstudio.uit.no*, a web-based platform ex
 
 Jupyter is an interactive computing environment that supports multiple programming languages through a single interface [@granger2021]. Students and staff can log in seamlessly using their UiT Feide credentials and access a virtual workspace from any web browser. The platform eliminates the need for local installations, ensuring users can start coding immediately without worrying about software compatibility or updates. This accessibility makes it an ideal tool for students embarking on their coding journey, allowing them to focus on learning and experimentation rather than technical setup.
 
-The simplicity and efficiency of Jupyter have made it an indispensable resource. Students can write, execute, and share their code within a highly intuitive interface. For example, in the case of learning R, they can create and run a basic "Hello Jupyter" script directly in their browser, experiencing the immediate satisfaction of seeing their code in action [@al2022].
+The simplicity and efficiency of Jupyter have made it an indispensable resource. Students can write, execute, and share their code within a highly intuitive interface. For example, in the case of learning R, they can create and run a basic "Hello World!" script directly in their browser, experiencing the immediate satisfaction of seeing their code in action [@al2022].
 
 The *launch window* of Jupyter greets users with an organized interface, offering options to start new notebooks in various programming languages or open existing projects. It provides an overview of available resources, ensuring users can quickly navigate to their workspace. The coding interface itself is clean and functional, presenting a notebook-style environment where users can write text, execute code, and visualize results seamlessly in one document.
 
@@ -254,9 +254,9 @@ The *launch window* of Jupyter greets users with an organized interface, offerin
 
 The Jupyter launch window provides users with options to create new notebooks in multiple programming languages, open existing projects, or explore uploaded files. The clean and organized interface makes it easy for students and staff to navigate and start their coding journey effortlessly.
 
-![Hello R Code Example](jupyter2.png)
+![Hello World! R Code Example](jupyter2.png)
 
-A simple "Hello Jupyter" example written and executed in Jupyter using the R kernel. This demonstrates how first-year students can begin coding immediately without local installations, focusing on understanding programming concepts rather than troubleshooting software setup.
+A simple "Hello World!" example written and executed in Jupyter using the R kernel. This demonstrates how first-year students can begin coding immediately without local installations, focusing on understanding programming concepts rather than troubleshooting software setup.
 
 This platform not only lowers the barrier to entry for coding but also fosters a collaborative learning environment. With reproducibility and accessibility as its core strengths, Jupyter is now an integral part of UiT’s commitment to modernizing education and equipping students with essential skills for data-driven disciplines. The availability of such a versatile and powerful tool reflects UiT's dedication to providing high-quality, inclusive education in the digital age.
 
