@@ -58,13 +58,15 @@ Through cooperative and interactive learning approaches, I aim to empower studen
 
 ### Constructive Alignment in Teaching
 
-Constructive alignment, as described by @biggs1996, is a teaching framework that integrates constructivist learning theory with instructional design [@cohen1987]. It emphasizes the centrality of the learner's activities in creating meaning, advocating that teaching, learning activities, and assessment methods must align to achieve intended learning outcomes. This approach requires defining course objectives that represent high cognitive levels and designing activities and assessments that elicit and measure these outcomes effectively.
+Constructive alignment, as developed by @biggs1996 and elaborated in @biggs_tang2011, provides the theoretical foundation for integrating learning theory with instructional design. This framework, building on constructivist learning principles [@cohen1987], establishes that effective learning occurs when teaching methods, learning activities, and assessment practices work in harmony to support intended learning outcomes. The framework particularly emphasizes how students construct meaning through their engagement with carefully designed learning activities.
 
-At its core, constructive alignment shifts the focus from traditional teaching methods, where the teacher transmits knowledge, to a learner-centered model. It encourages students to actively engage with content, construct their understanding, and apply their learning in novel contexts. The alignment between objectives, activities, and assessments ensures that students not only acquire knowledge but also develop critical thinking and problem-solving skills.
+The SOLO (Structure of Observed Learning Outcomes) taxonomy, a key component of constructive alignment theory [@biggs_tang2011], has guided my course design, particularly in the progression of learning activities. For example, in my econometrics courses, students advance from understanding basic statistical concepts (unistructural) to analyzing complex economic relationships (relational), and finally to creating original analyses using multiple data sources. This progression aligns with Wang et al.'s [@wang2013] findings on the effectiveness of structured learning progressions in higher education.
 
-For instance, assessments are designed not just to test memory or procedural skills but to evaluate "performances of understanding," such as applying theories to real-world problems or reflecting on learning processes. This holistic alignment fosters deeper learning and prepares students for professional challenges (see @sec-wiseflow).
+At its core, constructive alignment transforms traditional teacher-centered instruction into a learner-centered model. This transformation manifests in my teaching through carefully designed learning sequences where each element reinforces the others. For instance, in my WISEflow assessments (see @sec-wiseflow), students demonstrate their understanding not through mere reproduction of knowledge, but through practical application of economic theories to real-world data analysis problems. This approach exemplifies what @biggs_tang2011 describe as "performances of understanding" - assessments that require students to actively demonstrate their grasp of concepts through meaningful application.
 
-In my teaching, the principles of constructive alignment resonate deeply. My integration of coding tasks into assessments (see @sec-wiseflow) and my emphasis on hands-on data analysis (see @sec-casebnp) align with this framework, ensuring that students achieve both theoretical understanding and practical competence [@biggs2011].
+The implementation of constructive alignment in my teaching is particularly evident in my integration of coding tasks and hands-on data analysis (see @sec-casebnp). These activities are deliberately structured to align with both the theoretical foundations of economics and the practical skills demanded by the profession. Students progress through carefully sequenced learning activities that build upon each other, from basic coding exercises to complex economic analyses, ensuring that assessment tasks authentically reflect the learning objectives and professional competencies they are meant to develop.
+
+This systematic alignment between learning objectives, teaching activities, and assessment methods has produced demonstrable improvements in student learning outcomes, particularly in their ability to apply theoretical concepts to practical problems. The success of this approach is reflected in both student performance and their readiness for professional challenges, supporting @biggs_tang2011's assertion that proper constructive alignment leads to deeper, more meaningful learning experiences.
 
 ### Fostering Conceptual Understanding
 
@@ -82,11 +84,11 @@ Another key element is the use of engaging examples and case studies that highli
 
 ### Integrating Real Data and Context
 
-One of my primary goals is to bridge theoretical knowledge with practical application. By integrating real-world data into coursework, students learn to appreciate the relevance of statistical tools in solving complex problems [@libman2010]. This approach not only enhances engagement but also prepares students to tackle real-world challenges effectively (see @sec-newprog and @sec-casebnp).
+One of my primary goals is to bridge theoretical knowledge with practical application, following Brown et al.'s [@brown1989] situated learning framework, which emphasizes that knowledge is inseparable from its context of use. By integrating real-world data into coursework, students learn to appreciate the relevance of statistical tools in solving complex problems [@libman2010; @herrington2005]. This approach creates what Brown et al. describe as an "authentic context" for learning, preparing students to tackle real-world challenges effectively (see @sec-newprog and @sec-casebnp).
 
-In my teaching, I often incorporate authentic datasets from official sources such as Statistics Norway (Statistisk Sentralbyrå, SSB). For example, I have used data on Gross Domestic Product (GDP) per capita from SSB to illustrate growth trends and economic concepts. Students are introduced to tools like APIs (Application Programming Interfaces) to extract data directly from online repositories. This hands-on approach enables students to work with real data and enhances their technical skills in data extraction, cleaning, and visualization (see @sec-casebnp).
+In my teaching, I often incorporate authentic datasets from official sources such as Statistics Norway (Statistisk Sentralbyrå, SSB), exemplifying Herrington's principles of authentic learning environments [@herrington2005]. For example, I have used data on Gross Domestic Product (GDP) per capita from SSB to illustrate growth trends and economic concepts. Students are introduced to tools like APIs (Application Programming Interfaces) to extract data directly from online repositories, engaging in what Brown et al. [@brown1989] term "legitimate peripheral participation" in real economic analysis. This hands-on approach enables students to work with real data and enhances their technical skills in data extraction, cleaning, and visualization (see @sec-casebnp).
 
-To further contextualize the data, I encourage students to examine the underlying economic theories and mathematical foundations. For instance, while analyzing GDP data, students explore concepts such as relative and percentage changes, and they learn to compute and interpret these metrics using logarithmic transformations. These activities reinforce the importance of critical thinking and the ability to connect quantitative analysis with theoretical frameworks [@carter2011].
+To further contextualize the data, I encourage students to examine the underlying economic theories and mathematical foundations. For instance, while analyzing GDP data, students explore concepts such as relative and percentage changes, and they learn to compute and interpret these metrics using logarithmic transformations. These activities reinforce the importance of critical thinking and the ability to connect quantitative analysis with theoretical frameworks [@carter2011], creating what Herrington terms "authentic activities" [@herrington2005].
 
 Visual representation of data plays a significant role in making the material accessible and engaging. Students create and refine graphical presentations of their findings, such as time-series plots of GDP growth rates. This practice not only improves their technical proficiency in tools like R and Python but also helps them communicate complex ideas effectively (see @sec-newprog).
 
@@ -104,29 +106,29 @@ The ultimate goal is to cultivate a mindset where students appreciate the interc
 
 ### Active Learning and Collaboration
 
-Active learning lies at the heart of my teaching philosophy, sparked by my own research with a colleague [@bertheussen2016]. The only way for students to truly master the practical and applied aspects of econometrics, statistics, and data science is through consistent practice. I have integrated assignments as a cornerstone of all my classes, allowing students to engage directly with the material and apply their knowledge in meaningful ways.
+Active learning lies at the heart of my teaching philosophy, sparked by my own research with a colleague [@bertheussen2016]. This approach aligns with Vygotsky's social constructivist theory, which emphasizes how learning occurs through social interaction and guided practice [@laurillard2012]. The only way for students to truly master the practical and applied aspects of econometrics, statistics, and data science is through consistent, structured practice within their zone of proximal development.
 
-Initially, my teaching approach was rooted in traditional "talk and chalk" methods. However, I observed that while these methods helped students understand theoretical concepts, many struggled to translate their understanding into practical skills. To address this gap, I adopted a more interactive approach, incorporating hands-on activities and collaborative assignments [@becker1998]. These activities challenge students to think critically, solve problems, and collaborate effectively with their peers (see @sec-casebnp).
+Initially, my teaching approach was rooted in traditional "talk and chalk" methods. However, I observed that while these methods helped students understand theoretical concepts, many struggled to translate their understanding into practical skills. To address this gap, I adopted a more interactive approach, incorporating hands-on activities and collaborative assignments [@becker1998; @henderson2019]. These activities challenge students to think critically, solve problems, and collaborate effectively with their peers (see @sec-casebnp).
 
-Each assignment is designed to mirror real-world scenarios, requiring students to apply theoretical concepts to data-driven problems. For example, students may analyze datasets to identify trends, create predictive models, or evaluate policy impacts. This approach not only solidifies their understanding of the material but also prepares them for the complexities of professional environments (see @sec-newprog).
+Each assignment is designed to mirror real-world scenarios, requiring students to apply theoretical concepts to data-driven problems. Following the principles of situated learning [@laurillard2012], students analyze datasets to identify trends, create predictive models, or evaluate policy impacts. This approach not only solidifies their understanding of the material but also prepares them for the complexities of professional environments (see @sec-newprog).
 
 The importance of active learning is echoed in educational research, which highlights the benefits of experiential learning and student-centered approaches [@alderman2012; @mandouit2018]. Fostering statistical literacy and thinking requires students to engage with real data in relevant contexts. By designing assignments that simulate scientific laboratories rather than traditional classrooms, I provide students with the tools to navigate the dynamic landscape of modern data analysis.
 
-Collaboration is another critical component of my teaching. Group assignments encourage students to share diverse perspectives, hone their communication skills, and learn from one another. These experiences mirror professional settings, where teamwork is essential for success. By working together, students not only deepen their understanding but also build essential interpersonal skills that will serve them throughout their careers (see @sec-newprog).
+Collaboration, grounded in social constructivist learning theory, is another critical component of my teaching [@henderson2019]. Group assignments encourage students to share diverse perspectives, hone their communication skills, and learn from one another through peer scaffolding. These experiences mirror professional settings, where teamwork is essential for success. By working together, students not only deepen their understanding but also build essential interpersonal skills that will serve them throughout their careers (see @sec-newprog).
 
 ### Leveraging Technology
 
-Technology has been a cornerstone of my teaching philosophy since 2007, particularly through my advocacy for open-source software. By using tools such as R and Python, students gain access to powerful, cost-free platforms that eliminate the barriers of expensive licenses (see @sec-jupyter). Open-source tools ensure students can continue using these technologies beyond their academic journey, allowing them to apply their skills in professional environments without the constraints of proprietary software. This approach democratizes access to advanced analytical capabilities, fostering a more inclusive learning environment.
+Technology has been a cornerstone of my teaching philosophy since 2007, guided by the Technological Pedagogical Content Knowledge (TPACK) framework [@koehler2009]. This framework emphasizes the complex interplay between technological knowledge, pedagogical approaches, and subject matter expertise in effective teaching. Through my advocacy for open-source software like R and Python, students gain access to powerful, cost-free platforms that eliminate the barriers of expensive licenses (see @sec-jupyter). Following Hoyt and McGoldrick's [@hoyt2012] recommendations for economics education, these open-source tools ensure students can continue using these technologies beyond their academic journey, applying their skills in professional environments without the constraints of proprietary software.
 
-In 2017, I began using WISEflow, a SaaS[^2] solution for exams (see @sec-wiseflow). This platform revolutionized how I assess students by enabling practical and applied testing in econometrics [@chance2002]. Before adopting WISEflow, exams primarily focused on theoretical understanding, which often led students to downplay the practical components of the course. With WISEflow, I can test students' ability to implement statistical methods, analyze data, and interpret results, ensuring a more comprehensive evaluation of their skills.
+In 2017, I began using WISEflow, a SaaS[^2] solution for exams (see @sec-wiseflow). Aligned with TPACK principles of integrating technology with pedagogical goals [@koehler2009], this platform revolutionized how I assess students by enabling practical and applied testing in econometrics [@chance2002]. Before adopting WISEflow, exams primarily focused on theoretical understanding, which often led students to downplay the practical components of the course. With WISEflow, I can test students' ability to implement statistical methods, analyze data, and interpret results, ensuring a more comprehensive evaluation of their skills.
 
 [^2]: SaaS: [Software as a Service](https://en.wikipedia.org/wiki/Software_as_a_service).
 
-Since the introduction of Large Language Models (LLMs) in November 2022, I have integrated chatbots and tools such as [GitHub Copilot](https://github.com/features/copilot) into my teaching practices to assist students with coding. Historically, coding has been a challenging skill for students to develop, especially alongside the demands of mastering theoretical and mathematical concepts. The integration of LLM-powered tools into coding environments, such as integrated development environments (IDEs), has significantly reduced barriers to learning these skills. Students can now receive real-time assistance in writing, debugging, and refining their code, which accelerates their ability to adopt coding skills effectively.
+Since the introduction of Large Language Models (LLMs) in November 2022, I have integrated chatbots and tools such as [GitHub Copilot](https://github.com/features/copilot) into my teaching practices, exemplifying what @hoyt2012 describe as adaptive technology integration in economics education. Historically, coding has been a challenging skill for students to develop, especially alongside the demands of mastering theoretical and mathematical concepts. The integration of LLM-powered tools into coding environments has significantly reduced barriers to learning these skills, while maintaining the careful balance between technological assistance and pedagogical objectives that TPACK emphasizes [@koehler2009].
 
 However, the main learning challenge has shifted towards teaching students how to critically evaluate and validate the suggestions provided by these tools. I emphasize the importance of reviewing and verifying the chatbot's outputs to ensure accuracy and alignment with the problem at hand. By fostering critical thinking and coding literacy, I prepare students to use these tools responsibly and effectively in professional contexts.
 
-The integration of LLMs, alongside other technological tools, enhances the learning process and equips students with the skills needed for the rapidly evolving digital landscape. This commitment to leveraging technology reflects my dedication to preparing students for the challenges and opportunities of the future.
+The integration of LLMs, alongside other technological tools, enhances the learning process and equips students with the skills needed for the rapidly evolving digital landscape. This commitment to leveraging technology reflects my dedication to preparing students for the challenges and opportunities of the future, while maintaining the careful balance between technological innovation and pedagogical effectiveness that the TPACK framework advocates [@koehler2009].
 
 ### Ethical Considerations
 
@@ -142,13 +144,44 @@ Finally, I incorporate discussions on the ethical implications of algorithmic de
 
 ### Assessment as a Tool for Learning
 
-Assessments in my courses are designed not only to evaluate student performance but also to enhance learning [@hubbard1997assessment]. By integrating coding as an essential component, I aim to bridge theoretical mathematics with algorithmic thinking. Students are not only required to demonstrate their understanding of econometric and statistical concepts but also to implement these concepts programmatically using tools like Python and R (see @sec-wiseflow).
+Assessments in my courses follow Black and Wiliam's [@black1998] formative assessment framework, designed not only to evaluate student performance but also to enhance learning through continuous feedback loops [@hubbard1997assessment]. By integrating coding as an essential component, I aim to bridge theoretical mathematics with algorithmic thinking, creating what Black and Wiliam term "moments of contingency" where assessment directly informs instruction. Students demonstrate their understanding of econometric and statistical concepts while implementing these concepts programmatically using tools like Python and R (see @sec-wiseflow).
 
-For example, I incorporate exercises that use R or Python to solve mathematical problems, optimize functions, and model complex systems [@sierra2020]. This approach helps students transition from abstract mathematical reasoning to tangible, applied problem-solving skills. Additionally, version control tools such as [Git](https://en.wikipedia.org/wiki/Git) and platforms like [GitHub](https://en.wikipedia.org/wiki/GitHub) are integral to my courses [@beckman2021]. Students learn to manage their code repositories, collaborate on projects, and integrate their work with our Learning Management System (LMS), Canvas. These practices mirror professional workflows, preparing students for careers in data-intensive fields.
+For example, I incorporate exercises that use R or Python to solve mathematical problems, optimize functions, and model complex systems [@sierra2020; @ihantola2015]. This approach helps students transition from abstract mathematical reasoning to tangible, applied problem-solving skills, with automated feedback systems providing immediate guidance on their progress. Additionally, version control tools such as [Git](https://en.wikipedia.org/wiki/Git) and platforms like [GitHub](https://en.wikipedia.org/wiki/GitHub) are integral to my courses [@beckman2021]. Students learn to manage their code repositories, collaborate on projects, and integrate their work with our Learning Management System (LMS), Canvas, creating what @black1998 describe as a "community of assessment practice."
 
-The use of SaaS platforms, like WISEflow, further enhances the assessment process. Practical exams conducted on this platform allow me to test students' applied skills in econometrics and data analysis (@pfannkuch2000). Beyond grading, WISEflow enables me to provide detailed feedback reports to students, highlighting their strengths and areas for improvement. This iterative feedback mechanism helps students refine their skills and deepen their understanding of the material.
+The use of SaaS platforms, like WISEflow, further enhances the assessment process by enabling what @ihantola2015 term "continuous assessment in programming education." Practical exams conducted on this platform allow me to test students' applied skills in econometrics and data analysis (@pfannkuch2000). Beyond grading, WISEflow enables me to provide detailed feedback reports to students, implementing Black and Wiliam's [@black1998] principles of effective feedback by highlighting specific strengths and areas for improvement. This iterative feedback mechanism helps students refine their skills and deepen their understanding of the material.
 
-By integrating coding, algorithmic thinking, and modern technological tools into assessments, I ensure that students gain a comprehensive, practical, and forward-looking education [@combs2008]. I also use the same tools to automatically give students individual feedback on their performance in a class (see @sec-grade). These strategies not only measure student performance but also foster a continuous learning process that equips them with the skills to excel in academia and industry.
+The figure below demonstrates the effectiveness of this assessment approach, showing the aggregate percentile for grades C and B in SOK-3020 Econometrics for business students. These students do not have the same mathematical background as economics program students, hence it is considered a difficult topic. The positive trend in aggregate grades after 2017 aligns with @ihantola2015's findings on the benefits of integrated programming assessment.
+
+```{r}
+#| include: false
+
+library(tidyverse)
+
+data_frame <- 
+  data.frame(
+  year = c(2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024),
+  persentil = c(76.9, 36.4, 58.8, 58.3, 46.2, 50, 77.8, 72.7, 80.8, 66.7, 63.6, 100)
+)
+
+plot1 <- 
+  data_frame %>% 
+  ggplot(aes(x = year, y = persentil)) +
+  geom_line(lwd=1.5) +
+  geom_point() +
+  scale_x_continuous(breaks = seq(2013, 2024, 1)) +
+  geom_vline(xintercept = 2017, linetype = "dashed", color = "red", lwd = 2) +
+  labs(title = "Sum of grades C and B in Econometrics for Business students",
+       x = " ",
+       y = "Percentile Sum of grades C and D") +
+  theme_minimal()
+```
+
+```{r}
+#| echo: false
+plot1
+```
+
+By integrating coding, algorithmic thinking, and modern technological tools into assessments, I ensure that students gain a comprehensive, practical, and forward-looking education [@combs2008]. I also use these tools to automatically generate individual feedback on student performance (see @sec-grade), implementing what @black1998 describe as "assessment for learning" rather than merely assessment of learning. These strategies not only measure student performance but also foster a continuous learning process that equips them with the skills to excel in academia and industry.
 
 ## Plans Ahead
 
@@ -314,9 +347,14 @@ One significant outcome of this feedback process is the development of detailed 
 
 A sample handout on panel data analysis for the advanced course SOK-3008. This material was developed in response to student feedback to clarify key concepts and methods in the curriculum.
 
+I would like to end this documentation of educational competence with a snippet from an e-mail I got in January this year from a student in the Econometrics class.
+
+![Snippet of e-mail from Econometrics student](stud_email.png)
+I have to admit that this type of feedback is rare, but highly appreciated!
+
 \pagebreak
 
-# @sec-lettrec: Letter of recommendation from department head {#sec-lettrec}
+# @sec-lettrec: Letter of Recommendation from Department Head {#sec-lettrec}
 
 Not available online.
 
