@@ -361,7 +361,7 @@ One significant outcome of this feedback process is the development of detailed 
 
 ![Handout on Panel Data Analysis](panel.png)
 
-These notes include solutions to exercises. During lectures, I use an iPad as a digital blackboard, and all class notes are uploaded to Canvas.
+These types of handout notes also include solutions to exercises. During lectures, I use an iPad as a digital blackboard, and all class notes are uploaded to Canvas after each lecture.
 
 I would like to end this documentation of my educational competence with a snippet from an e-mail I got in January this year from a student in the Econometrics class.
 
