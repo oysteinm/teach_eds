@@ -44,7 +44,7 @@ In addition to the main body of this document, which describes my core principle
 @sec-wiseflow: Online WISEflow Exam\
 @sec-grade: Automated Grade Explanation for All\
 @sec-partner: Partnering with Students for Continuous Improvement\
-@sec-lettrec: Letter of recommendation from department head
+@sec-lettrec: Letter of Recommendation from Department Head
 
 \pagebreak
 
