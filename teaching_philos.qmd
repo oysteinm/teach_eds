@@ -88,6 +88,8 @@ This approach aligns with my use of collaborative assignments, hands-on coding p
 
 Another key element is the use of engaging examples and case studies that highlight the role of econometrics as an exploratory and decision-making tool. These examples illustrate that econometrics is not merely a set of disconnected formulas but a coherent process aimed at uncovering insights from data. For instance, analyzing real-world datasets can help students see how statistical models are built and validated, and how they inform decisions in various domains (see @sec-newprog).
 
+\pagebreak
+
 ### Integrating Real Data and Context
 
 One of my primary goals is to bridge theoretical knowledge with practical application, following @brown1989 situated learning framework, which emphasizes that knowledge is inseparable from its context of use. By integrating real-world data into coursework, students learn to appreciate the relevance of statistical tools in solving complex problems [@libman2010; @herrington2005]. This approach creates what @brown1989 describe as an "authentic activity" for learning, preparing students to tackle real-world challenges effectively (see @sec-newprog and @sec-casebnp).
